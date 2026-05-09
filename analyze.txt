@@ -1,0 +1,259 @@
+Resolving dependencies...
+Downloading packages...
+  flutter_lints 4.0.0 (6.0.0 available)
+  google_fonts 6.3.3 (8.1.0 available)
+  intl 0.19.0 (0.20.2 available)
+  lints 4.0.0 (6.1.0 available)
+  matcher 0.12.19 (0.12.20 available)
+  meta 1.17.0 (1.18.2 available)
+  native_toolchain_c 0.17.6 (0.18.0 available)
+  test_api 0.7.10 (0.7.12 available)
+  vector_math 2.2.0 (2.3.0 available)
+Got dependencies!
+9 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing flutter_project...                                    
+
+warning - 'invariant_booleans' was removed in Dart '3.0.0' - analysis_options.yaml:19:7 - removed_lint
+warning - 'unnecessary_labels' isn't a recognized lint rule - analysis_options.yaml:27:7 - undefined_lint
+   info - The import of 'screens/company_intel_screen.dart' is unnecessary because all of the used elements are also provided by the import of 'screens/index.dart' - lib\main.dart:7:8 - unnecessary_import
+   info - The import of 'screens/placeholder_screen.dart' is unnecessary because all of the used elements are also provided by the import of 'screens/index.dart' - lib\main.dart:8:8 - unnecessary_import
+   info - Parameter 'key' could be a super parameter - lib\main.dart:28:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\main.dart:42:9 - use_super_parameters
+   info - Statements in an if should be enclosed in a block - lib\main.dart:105:33 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\main.dart:106:38 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\main.dart:107:38 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\main.dart:108:38 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\main.dart:109:38 - curly_braces_in_flow_control_structures
+   info - Parameter 'key' could be a super parameter - lib\screens\ai_screen.dart:10:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:133:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:135:14 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\screens\ai_screen.dart:136:19 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:139:11 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\screens\ai_screen.dart:141:23 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:142:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:142:60 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:143:15 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\screens\ai_screen.dart:144:27 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:145:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:153:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:155:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:171:11 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\screens\ai_screen.dart:173:23 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:174:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:174:37 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:175:15 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\screens\ai_screen.dart:176:27 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:177:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:243:9 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\ai_screen.dart:252:9 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\ai_screen.dart:269:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\ai_screen.dart:271:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\ai_screen.dart:286:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\ai_screen.dart:330:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\ai_screen.dart:332:40 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\screens\company_intel_screen.dart:7:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\screens\company_intel_screen.dart:71:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\company_intel_screen.dart:93:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\company_intel_screen.dart:95:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\company_intel_screen.dart:137:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\company_intel_screen.dart:196:13 - prefer_const_constructors
+   info - Parameter 'key' could be a super parameter - lib\screens\components_showcase.dart:11:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:37:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:38:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:38:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:109:11 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\screens\components_showcase.dart:112:23 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:113:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:114:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:115:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:116:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:117:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:118:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:119:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:120:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:126:11 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\screens\components_showcase.dart:129:23 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:130:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:135:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:157:11 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\screens\components_showcase.dart:158:23 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:159:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:160:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:168:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:169:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:181:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:224:11 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\screens\components_showcase.dart:226:23 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:227:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:228:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:234:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:239:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:247:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:251:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\components_showcase.dart:259:11 - prefer_const_constructors
+   info - 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion - lib\screens\components_showcase.dart:366:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:47:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:48:38 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\screens\dashboard_screen.dart:55:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard_screen.dart:73:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard_screen.dart:98:14 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard_screen.dart:100:16 - prefer_const_constructors
+  error - Unexpected text 'return' - lib\screens\dashboard_screen.dart:131:11 - unexpected_token
+  error - Too many positional arguments: 0 expected, but 1 found - lib\screens\dashboard_screen.dart:131:18 - extra_positional_arguments_could_be_named
+  error - Undefined name 'isDesktop' - lib\screens\dashboard_screen.dart:136:23 - undefined_identifier
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard_screen.dart:137:21 - prefer_const_constructors
+  error - Expected to find ')' - lib\screens\dashboard_screen.dart:150:12 - expected_token
+  error - Expected an identifier - lib\screens\dashboard_screen.dart:155:13 - missing_identifier
+  error - Expected to find ']' - lib\screens\dashboard_screen.dart:155:13 - expected_token
+  error - Expected to find ';' - lib\screens\dashboard_screen.dart:157:9 - expected_token
+warning - Dead code - lib\screens\dashboard_screen.dart:157:10 - dead_code
+  error - Expected an identifier - lib\screens\dashboard_screen.dart:157:10 - missing_identifier
+  error - Unexpected text ';' - lib\screens\dashboard_screen.dart:157:10 - unexpected_token
+  error - Expected to find ';' - lib\screens\dashboard_screen.dart:158:33 - expected_token
+  error - Expected an identifier - lib\screens\dashboard_screen.dart:158:34 - missing_identifier
+  error - Unexpected text ';' - lib\screens\dashboard_screen.dart:158:34 - unexpected_token
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:169:50 - deprecated_member_use
+  error - Expected to find ';' - lib\screens\dashboard_screen.dart:174:9 - expected_token
+  error - Expected an identifier - lib\screens\dashboard_screen.dart:174:10 - missing_identifier
+  error - Expected to find ';' - lib\screens\dashboard_screen.dart:174:10 - expected_token
+  error - Unexpected text ';' - lib\screens\dashboard_screen.dart:174:10 - unexpected_token
+  error - Expected an identifier - lib\screens\dashboard_screen.dart:175:7 - missing_identifier
+  error - Expected to find ';' - lib\screens\dashboard_screen.dart:175:7 - expected_token
+  error - Unexpected text ';' - lib\screens\dashboard_screen.dart:175:7 - unexpected_token
+  error - Expected an identifier - lib\screens\dashboard_screen.dart:175:8 - missing_identifier
+  error - Expected to find ';' - lib\screens\dashboard_screen.dart:175:8 - expected_token
+  error - Unexpected text ';' - lib\screens\dashboard_screen.dart:175:8 - unexpected_token
+  error - Expected an identifier - lib\screens\dashboard_screen.dart:176:5 - missing_identifier
+  error - Unexpected text ';' - lib\screens\dashboard_screen.dart:176:5 - unexpected_token
+   info - Unnecessary empty statement - lib\screens\dashboard_screen.dart:176:6 - empty_statements
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:189:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:196:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:198:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:206:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:212:47 - deprecated_member_use
+   info - Use 'const' for final variables initialized to a constant value - lib\screens\dashboard_screen.dart:232:5 - prefer_const_declarations
+  error - Expected to find ')' - lib\screens\dashboard_screen.dart:297:6 - expected_token
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard_screen.dart:309:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard_screen.dart:317:14 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard_screen.dart:338:14 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:373:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:375:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:485:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:487:41 - deprecated_member_use
+   info - Use 'const' for final variables initialized to a constant value - lib\screens\dashboard_screen.dart:500:5 - prefer_const_declarations
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard_screen.dart:580:14 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard_screen.dart:582:16 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:606:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:616:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:617:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:624:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:667:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:670:41 - deprecated_member_use
+   info - Use 'const' for final variables initialized to a constant value - lib\screens\dashboard_screen.dart:709:5 - prefer_const_declarations
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard_screen.dart:756:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\dashboard_screen.dart:758:14 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:828:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:866:36 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\dashboard_screen.dart:867:36 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\screens\finance\debt_tracker.dart:13:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\finance\debt_tracker.dart:66:49 - deprecated_member_use
+   info - Unnecessary use of 'toList' in a spread - lib\screens\finance\debt_tracker.dart:108:14 - unnecessary_to_list_in_spreads
+   info - Parameter 'key' could be a super parameter - lib\screens\finance\expense_list.dart:13:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\screens\finance\expense_list.dart:132:17 - prefer_const_constructors
+   info - Parameter 'key' could be a super parameter - lib\screens\finance\finance_overview.dart:12:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\finance\finance_overview.dart:103:41 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\finance\finance_overview.dart:125:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\finance\finance_overview.dart:144:21 - prefer_const_constructors
+   info - Unnecessary use of 'toList' in a spread - lib\screens\finance\finance_overview.dart:149:16 - unnecessary_to_list_in_spreads
+   info - Use 'const' with the constructor to improve performance - lib\screens\finance\finance_overview.dart:182:11 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\finance\finance_overview.dart:214:61 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\screens\finance_screen.dart:12:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\screens\finance_screen.dart:16:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\finance_screen.dart:18:14 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\finance_screen.dart:19:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\finance_screen.dart:26:19 - prefer_const_constructors
+   info - Parameter 'key' could be a super parameter - lib\screens\knowledge_screen.dart:9:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\screens\knowledge_screen.dart:36:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\knowledge_screen.dart:40:19 - prefer_const_constructors
+   info - Parameter 'key' could be a super parameter - lib\screens\notifications_screen.dart:7:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\notifications_screen.dart:135:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\notifications_screen.dart:136:66 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\notifications_screen.dart:179:28 - prefer_const_constructors
+   info - Parameter 'key' could be a super parameter - lib\screens\placeholder_screen.dart:9:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\screens\tasks_screen.dart:12:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\screens\tasks_screen.dart:24:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\tasks_screen.dart:26:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\tasks_screen.dart:26:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\tasks_screen.dart:132:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\tasks_screen.dart:157:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\tasks_screen.dart:190:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\tasks_screen.dart:208:19 - prefer_const_constructors
+   info - Unnecessary use of 'toList' in a spread - lib\screens\tasks_screen.dart:213:14 - unnecessary_to_list_in_spreads
+   info - Parameter 'key' could be a super parameter - lib\screens\team_screen.dart:7:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\screens\team_screen.dart:204:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\team_screen.dart:214:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\theme\jarvis_theme.dart:15:20 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\theme\jarvis_theme.dart:107:36 - deprecated_member_use
+   info - 'MaterialStateProperty' is deprecated and shouldn't be used. Use WidgetStateProperty instead. Moved to the Widgets layer to make code available outside of Material. This feature was deprecated after v3.19.0-0.3.pre - lib\theme\jarvis_theme.dart:138:20 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\theme\jarvis_theme.dart:197:5 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\theme\jarvis_theme.dart:207:27 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\theme\jarvis_theme.dart:216:27 - deprecated_member_use
+warning - Unused import: '../theme/jarvis_theme.dart' - lib\widgets\jarvis_ai_orb.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_ai_orb.dart:12:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\jarvis_ai_orb.dart:56:23 - deprecated_member_use
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\widgets\jarvis_ai_orb.dart:61:20 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_ai_orb.dart:62:11 - prefer_const_constructors
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_ai_orb.dart:94:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_ai_orb.dart:104:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_ai_orb.dart:106:19 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\widgets\jarvis_ai_orb.dart:108:19 - prefer_const_literals_to_create_immutables
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\widgets\jarvis_ai_orb.dart:113:20 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_ai_orb.dart:114:11 - prefer_const_constructors
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_card.dart:17:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\jarvis_card.dart:60:47 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_card.dart:84:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\jarvis_card.dart:99:33 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_card.dart:120:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_card.dart:121:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_card.dart:122:31 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\jarvis_card.dart:129:33 - deprecated_member_use
+   info - Parameters ''key', 'child', and 'padding'' could be super parameters - lib\widgets\jarvis_card.dart:143:9 - use_super_parameters
+   info - Parameters ''key', 'child', and 'padding'' could be super parameters - lib\widgets\jarvis_card.dart:158:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_chip.dart:16:9 - use_super_parameters
+warning - The value of the local variable 'color' isn't used - lib\widgets\jarvis_chip.dart:46:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\jarvis_chip.dart:76:32 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_chip.dart:116:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\jarvis_chip.dart:128:41 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_kpi.dart:16:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\jarvis_kpi.dart:58:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\jarvis_kpi.dart:95:30 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_kpi.dart:109:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_kpi.dart:159:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_sidebar.dart:13:9 - use_super_parameters
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_sidebar.dart:24:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_sidebar.dart:26:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_sidebar.dart:27:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_sidebar.dart:62:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_sidebar.dart:157:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_sidebar.dart:158:25 - prefer_const_constructors
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_topbar.dart:14:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\jarvis_topbar.dart:26:26 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_topbar.dart:27:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_topbar.dart:28:19 - prefer_const_constructors
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_topbar.dart:88:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_topbar.dart:124:9 - use_super_parameters
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\widgets\jarvis_topbar.dart:144:20 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\widgets\jarvis_topbar.dart:145:11 - prefer_const_constructors
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_widgets.dart:14:9 - use_super_parameters
+   info - Unnecessary use of string interpolation - lib\widgets\jarvis_widgets.dart:40:15 - unnecessary_string_interpolations
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\jarvis_widgets.dart:78:47 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_widgets.dart:96:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_widgets.dart:174:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_widgets.dart:217:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\jarvis_widgets.dart:233:33 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_widgets.dart:245:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\jarvis_widgets.dart:264:35 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\widgets\jarvis_widgets.dart:299:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\jarvis_widgets.dart:321:35 - deprecated_member_use
+

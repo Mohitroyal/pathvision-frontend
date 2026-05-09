@@ -1,0 +1,21 @@
+// lib/screens/index.dart
+
+export 'dashboard_screen.dart';
+export 'finance_screen.dart';
+export 'tasks_screen.dart';
+export 'ai_screen.dart';
+export 'team_screen.dart';
+export 'notifications_screen.dart';
+export 'knowledge_screen.dart';
+export 'company_intel_screen.dart';
+export 'projects_screen.dart';
+export 'add_task_screen.dart';
+export 'add_member_screen.dart';
+export 'daily_planner_screen.dart';
+export 'placeholder_screen.dart';
+export 'brain_dump_screen.dart';
+export 'risk_radar_screen.dart';
+export 'milestones_screen.dart';
+export 'pinned_screen.dart';
+export 'project_management_screen.dart';
+export 'profile_screen.dart';

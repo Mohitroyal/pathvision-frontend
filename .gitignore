@@ -1,0 +1,90 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The Python extension for Visual Studio Code creates this
+.python-version
+
+# The Python extension for Visual Studio Code creates this
+.env
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/flutter_podhelper.rb
+**/ios/GeneratedPluginRegistrant.h
+**/ios/GeneratedPluginRegistrant.m
+**/lib/generated_plugin_registrant.dart
+**/pubspec.lock
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+dart_tool/
+lib/generated_plugin_registrant.dart
+
+# Android related
+**/android/**/generated/
+**/android/app/src/main/res/drawable-*/
+**/android/app/src/main/res/mipmap-*/
+**/android/app/src/main/res/values/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/key.properties
+**/android/app/google-services.json
+.gradle/
+captures/
+externalNativeBuild/
+.cxx/
+*.keystore
+*.jks
+
+# iOS related
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/GeneratedPluginRegistrant.h
+**/ios/GeneratedPluginRegistrant.m
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/ios/Runner/GeneratedPluginRegistrant.h
+**/ios/Runner/GeneratedPluginRegistrant.m
+**/ios/Runner/Info.plist
+
+# macOS related
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Pods/
+
+# Linux related
+**/linux/flutter/ephemeral/
+
+# Windows related
+**/windows/flutter/ephemeral/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbol files
+*.pdb
