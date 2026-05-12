@@ -1,6 +1,7 @@
 // lib/providers/ai_provider.dart
 
 import 'package:flutter/foundation.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 import '../models/ai_message.dart';
 import '../services/api_service.dart';
 
@@ -18,10 +19,17 @@ class AiProvider with ChangeNotifier {
   bool _isProcessing = false;
   bool get isProcessing => _isProcessing;
 
+  // Last executed action — listeners can refresh their data on change
+  String? _lastAction;
+  String? get lastAction => _lastAction;
+
   Future<void> sendMessage(String content) async {
     if (content.trim().isEmpty) return;
 
-    // Add user message
+    // Current authenticated user ID
+    final userId = Supabase.instance.client.auth.currentUser?.id;
+
+    // Add user message immediately
     _messages.add(AiMessage(
       id: DateTime.now().millisecondsSinceEpoch.toString(),
       content: content,
@@ -34,18 +42,30 @@ class AiProvider with ChangeNotifier {
     notifyListeners();
 
     try {
-      final response = await ApiService.post("/ai/command", {'text': content});
-      
+      final response = await ApiService.post("/ai/command", {
+        'text': content,
+        if (userId != null) 'userId': userId,
+      });
+
+      final action = response['action'] as String?;
+      final message = response['message'] ?? 'Action completed.';
+
       _messages.add(AiMessage(
         id: DateTime.now().millisecondsSinceEpoch.toString(),
-        content: response['message'] ?? 'Action completed.',
+        content: message,
         sender: MessageSender.ai,
         timestamp: DateTime.now(),
       ));
+
+      // Track the action so dependent screens can reload data
+      if (action != null && action != 'conversation' && action != 'external_query') {
+        _lastAction = action;
+        debugPrint('[AiProvider] Action executed: $action');
+      }
     } catch (e) {
       _messages.add(AiMessage(
         id: DateTime.now().millisecondsSinceEpoch.toString(),
-        content: 'Error processing command: $e',
+        content: 'Neural link error: $e',
         sender: MessageSender.ai,
         timestamp: DateTime.now(),
       ));
