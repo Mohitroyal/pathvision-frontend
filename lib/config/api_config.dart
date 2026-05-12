@@ -1,10 +1,10 @@
 class ApiConfig {
   static const bool isProduction = bool.fromEnvironment('dart.vm.product');
   
-  static const String cloudUrl = String.fromEnvironment('BACKEND_URL', defaultValue: "https://pathvision-backend.onrender.com/api/v1");
-  static const String localUrl = "http://10.0.2.2:5000/api/v1"; 
+  static const String cloudUrl = "https://pathvision-backend.onrender.com/api/v1";
+  static const String localUrl = "https://pathvision-backend.onrender.com/api/v1"; 
 
-  static String get baseUrl => isProduction ? cloudUrl : localUrl;
+  static String get baseUrl => cloudUrl;
 
   // Supabase Config
   static const String supabaseUrl = String.fromEnvironment('SUPABASE_URL', defaultValue: 'https://bykivmvznqbgnjlokxd.supabase.co');
