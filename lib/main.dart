@@ -49,8 +49,8 @@ void main() async {
   
   // Initialize Supabase Cloud Link
   await Supabase.initialize(
-    url: 'https://bykivmvznqbgnjlokxd.supabase.co',
-    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ5a2l2bXZ6bnFiZ25uamxva3hkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgzMDY1MTksImV4cCI6MjA5Mzg4MjUxOX0.LUarkyRAHVQHCa68d9iFC4CorXxsdzCIn_xfF_tla2c',
+    url: ApiConfig.supabaseUrl,
+    anonKey: ApiConfig.supabaseAnonKey,
   );
   
   // Initialize Notification Service
