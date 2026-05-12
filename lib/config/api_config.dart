@@ -1,8 +1,8 @@
 class ApiConfig {
   static const bool isProduction = bool.fromEnvironment('dart.vm.product');
   
-  static const String cloudUrl = "https://pathvision-backend.onrender.com/api/v1";
-  static const String localUrl = "https://pathvision-backend.onrender.com/api/v1"; 
+  static const String cloudUrl = "https://pathvision-backend.onrender.com/api";
+  static const String localUrl = "https://pathvision-backend.onrender.com/api"; 
 
   static String get baseUrl => cloudUrl;
 
