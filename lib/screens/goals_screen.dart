@@ -4,6 +4,7 @@ import '../theme/jarvis_theme.dart';
 import '../widgets/index.dart';
 import 'package:provider/provider.dart';
 import '../providers/goal_provider.dart';
+import '../models/goal_model.dart';
 
 class GoalsScreen extends StatelessWidget {
   const GoalsScreen({Key? key}) : super(key: key);

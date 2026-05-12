@@ -92,7 +92,7 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
       }
       
       // Refresh milestones to ensure they show up in the Gantt view
-      await context.read<MilestoneProvider>().fetchAll();
+      // Realtime streams will handle this automatically
       
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Project "${_nameController.text}" ${_isEditing ? 'Updated' : 'Created'} Successfully!')),

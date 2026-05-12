@@ -1,5 +1,5 @@
-// lib/providers/goal_provider.dart
-
+import 'package:flutter/material.dart';
+import '../models/goal_model.dart';
 import '../services/supabase_service.dart';
 
 class GoalProvider with ChangeNotifier {

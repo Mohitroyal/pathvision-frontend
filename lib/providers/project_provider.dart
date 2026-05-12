@@ -1,5 +1,6 @@
 // lib/providers/project_provider.dart
 
+import 'package:flutter/material.dart';
 import '../services/supabase_service.dart';
 
 class Project {

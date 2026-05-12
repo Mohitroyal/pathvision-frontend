@@ -4,7 +4,8 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 import '../services/supabase_service.dart';
 
 class RealtimeService {
-  final SupabaseClient _client = Supabase.instance.client;
+  final SupabaseClient client = Supabase.instance.client;
+  SupabaseClient get _client => client;
   
   // Streams for each module
   Stream<List<Map<String, dynamic>>> get taskStream => _client.from('tasks').stream(primaryKey: ['id']);
@@ -16,6 +17,7 @@ class RealtimeService {
   Stream<List<Map<String, dynamic>>> get reminderStream => _client.from('reminders').stream(primaryKey: ['id']);
   Stream<List<Map<String, dynamic>>> get plannerStream => _client.from('planner_blocks').stream(primaryKey: ['id']);
   Stream<List<Map<String, dynamic>>> get notificationStream => _client.from('notifications').stream(primaryKey: ['id']);
+  Stream<List<Map<String, dynamic>>> get brainDumpStream => _client.from('brain_dump').stream(primaryKey: ['id']);
 
   void initializeRealtime() {
     // This can be used to set up global broadcast channels if needed

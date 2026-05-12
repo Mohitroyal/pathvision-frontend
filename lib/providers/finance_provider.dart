@@ -1,6 +1,6 @@
-// lib/providers/finance_provider.dart
-
-import '../services/supabase_service.dart';
+import 'package:flutter/material.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
+import '../models/finance_model.dart';
 import '../realtime/realtime_service.dart';
 
 class FinanceProvider with ChangeNotifier {

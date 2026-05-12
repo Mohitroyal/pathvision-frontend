@@ -41,10 +41,7 @@ class _AiScreenState extends State<AiScreen> {
     if (text.trim().isNotEmpty) {
       _messageController.clear();
       await context.read<AiProvider>().sendMessage(text);
-      // Refresh tasks in case AI created/modified one
-      if (mounted) {
-        context.read<TaskProvider>().fetchTasks();
-      }
+      // Realtime streams in TaskProvider will handle updates automatically
       Future.delayed(const Duration(milliseconds: 100), _scrollToBottom);
     }
   }

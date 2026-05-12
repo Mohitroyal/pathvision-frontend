@@ -1,5 +1,4 @@
-// lib/providers/auth_provider.dart
-
+import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import '../repositories/auth_repository.dart';
 
@@ -26,21 +25,22 @@ class AuthProvider with ChangeNotifier {
     });
   }
 
-  Future<void> login(String email, String password) async {
+  Future<bool> login(String email, String password) async {
     _isLoading = true;
     notifyListeners();
     try {
       await _repository.signIn(email: email, password: password);
+      return true;
     } catch (e) {
       debugPrint("Login error: $e");
-      rethrow;
+      return false;
     } finally {
       _isLoading = false;
       notifyListeners();
     }
   }
 
-  Future<void> register(String email, String password, String fullName, String role) async {
+  Future<bool> register(String email, String password, String fullName, String role) async {
     _isLoading = true;
     notifyListeners();
     try {
@@ -52,10 +52,12 @@ class AuthProvider with ChangeNotifier {
           'full_name': fullName,
           'role': role,
         });
+        return true;
       }
+      return false;
     } catch (e) {
       debugPrint("Register error: $e");
-      rethrow;
+      return false;
     } finally {
       _isLoading = false;
       notifyListeners();

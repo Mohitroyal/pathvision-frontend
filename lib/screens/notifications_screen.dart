@@ -57,10 +57,7 @@ class NotificationsScreen extends StatelessWidget {
                 children: [
                   _buildTab('ALL (${reminders.length})', gold, true),
                   const SizedBox(width: Spacing.sm),
-                  TextButton(
-                    onPressed: () => provider.fetchReminders(),
-                    child: const Text('REFRESH', style: TextStyle(color: gold, fontSize: 11, fontWeight: FontWeight.bold)),
-                  ),
+                  // Realtime streams handle updates automatically
                 ],
               ),
             ],

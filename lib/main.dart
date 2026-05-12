@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
+import 'config/api_config.dart';
 import 'theme/index.dart';
 import 'screens/index.dart';
 import 'screens/auth_screen.dart';

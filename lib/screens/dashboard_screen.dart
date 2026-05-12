@@ -198,7 +198,7 @@ class _TopBar extends StatelessWidget {
               image: DecorationImage(
                 image: NetworkImage(
                   user != null 
-                    ? 'https://ui-avatars.com/api/?name=${Uri.encodeComponent(user['full_name'] ?? 'User')}&background=0D0D0D&color=D4AF37'
+                    ? 'https://ui-avatars.com/api/?name=${Uri.encodeComponent(user.userMetadata?['full_name'] ?? 'User')}&background=0D0D0D&color=D4AF37'
                     : 'https://ui-avatars.com/api/?name=User&background=0D0D0D&color=D4AF37'
                 ),
                 fit: BoxFit.cover,

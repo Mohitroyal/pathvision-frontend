@@ -10,6 +10,7 @@ import '../widgets/jarvis_topbar.dart';
 import '../providers/task_provider.dart';
 import '../providers/project_provider.dart';
 import '../models/task_model.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 import 'dart:io';
 
 class ProfileScreen extends StatelessWidget {
@@ -59,9 +60,9 @@ class ProfileScreen extends StatelessWidget {
               title: 'PERSONAL INFORMATION',
               child: Column(
                 children: [
-                  _buildInfoRow('NAME', user['full_name']?.toString().toUpperCase() ?? 'N/A'),
-                  _buildInfoRow('ROLE', user['role']?.toString().toUpperCase() ?? 'N/A'),
-                  _buildInfoRow('EMAIL', user['email']?.toString() ?? 'N/A'),
+                  _buildInfoRow('NAME', user.userMetadata?['full_name']?.toString().toUpperCase() ?? 'N/A'),
+                  _buildInfoRow('ROLE', user.userMetadata?['role']?.toString().toUpperCase() ?? 'N/A'),
+                  _buildInfoRow('EMAIL', user.email ?? 'N/A'),
                   _buildInfoRow('LOCATION', 'HYDERABAD, INDIA'),
                 ],
               ),
@@ -86,7 +87,7 @@ class ProfileScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildHeader(Map<String, dynamic> user) {
+  Widget _buildHeader(User user) {
     return Row(
       children: [
         Container(
@@ -110,7 +111,7 @@ class ProfileScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                user['full_name']?.toString().toUpperCase() ?? 'USER',
+                user.userMetadata?['full_name']?.toString().toUpperCase() ?? 'USER',
                 style: GoogleFonts.orbitron(
                   fontSize: 24,
                   fontWeight: FontWeight.w800,
@@ -120,7 +121,7 @@ class ProfileScreen extends StatelessWidget {
               ),
               const SizedBox(height: 4),
               Text(
-                user['role']?.toString().toUpperCase() ?? 'EXECUTIVE',
+                user.userMetadata?['role']?.toString().toUpperCase() ?? 'EXECUTIVE',
                 style: GoogleFonts.jetBrainsMono(
                   fontSize: 12,
                   color: textDim,
